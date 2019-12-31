@@ -1,0 +1,16 @@
+<script src="//ced.sascdn.com/tag/NNNN/smart.js" async></script>
+<div id="sas_0000"></div>
+<script>
+    var sas = sas || {};
+    sas.cmd = sas.cmd || [];
+    sas.cmd.push(
+        function () {
+            sas.call(
+                { siteId: XXXX, pageId: XXXX, formatId: XXXX, tagId: "sas_0000" },
+                { networkId: NNNN, domain: "//www.smartadserver.com", clickTrackingUrl:"[countgo]"/*, onNoad: function() {} */ }
+            );
+     }
+    );
+</script>
+
+<!-- [countgo] has to be change with the property click url macro -->
